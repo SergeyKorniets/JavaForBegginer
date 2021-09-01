@@ -1,6 +1,6 @@
 package Lesson2;
 
-public class Main {
+public class PrimitiveDataTypes {
 
     public static void main(String[] args) {
 	// write your code here
