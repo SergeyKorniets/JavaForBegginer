@@ -4,6 +4,17 @@ public class BankAccount {
     int id;
     String name;
     double balance;
+
+    double upBalance(double a) {
+        balance += a;
+        return balance;
+    }
+
+    double downBalance(double a) {
+        balance -= a;
+        return balance;
+    }
+
 }
 
 class BankAccountTest {
@@ -25,5 +36,8 @@ class BankAccountTest {
         hisAccount.balance = 14324.1;
 
         System.out.println(myAccount.id);
+
+        myAccount.downBalance(50.31);
+        System.out.println(myAccount.balance);
     }
 }
