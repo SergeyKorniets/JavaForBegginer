@@ -7,7 +7,7 @@ public class Employee {
         age = age2;
     }
 
-    Employee(String surname2, int age2) {
+   public Employee(String surname2, int age2) {
         surname = surname2;
         age = age2;
     }
